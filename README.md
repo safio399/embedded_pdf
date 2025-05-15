@@ -27,6 +27,16 @@ Embed multiple PDFs into one base PDF.
 Returns a downloadable PDF with all embedded PDFs as attachments.
 
 ---
+### `POST /extract_embedded_pdf/`
+Extract embedded PDFs from a PDF.
+
+#### Form Fields:
+- `pdf_file`: PDF file containing embedded PDFs (file)
+  
+#### Response:
+Returns a .zip file containing only the embedded (attached) PDF files. The base PDF itself is not included in the ZIP.
+
+---
 
 ##  How to Run
 
