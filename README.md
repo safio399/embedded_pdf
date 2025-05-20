@@ -45,4 +45,5 @@ Returns a .zip file containing only the embedded (attached) PDF files. The base 
 ```bash
 pip install fastapi uvicorn pypdf
 uvicorn mapi:app --reload
+http://localhost:5000/api/docs
 
